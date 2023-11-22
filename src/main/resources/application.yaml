@@ -1,0 +1,19 @@
+### Datasource & jpa configuration ###
+spring:
+  sql:
+    init:
+      mode: always
+  datasource:
+    driverClassName: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    defer-datasource-initialization: true
+    open-in-view: false
+
+### Template file configuration ###
+templates:
+  generated-template-dir-path: src/main/resources/templates/
+  static-template-dir-path: target/classes/templates/
+  extension: .ftlh
+  keep-templates: false
