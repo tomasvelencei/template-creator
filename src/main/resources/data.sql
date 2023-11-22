@@ -1,1 +1,1 @@
-INSERT INTO applicant (id, name, email, repository_url) VALUES (1, 'Tamas Velencei', 'tomas.velencei@gmail.com', 'XXX');
+INSERT INTO applicant (id, name, email, repository_url) VALUES (1, 'Tamas Velencei', 'tomas.velencei@gmail.com', 'https://github.com/tomasvelencei/template-creator.git');
